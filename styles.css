@@ -201,3 +201,85 @@ p.project-name {
   margin-bottom: 0.75rem;
   font-style: italic;
 }
+
+a:link {
+  color: #1d5960;
+  transition: color 160ms ease;
+}
+
+a:visited {
+  color: #365a60;
+}
+
+a:hover {
+  color: #9b4f35;
+}
+
+a:active {
+  color: #7f3d2b;
+}
+
+.download-link {
+  display: inline;
+  margin: 0 0 2rem 0;
+}
+
+#contact-form {
+  display: flex;
+  max-width: 600px;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+  color: #1f2b31;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  margin: 0 0 1rem 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid #aebdb9;
+  border-radius: 2px;
+  background: #fffefa;
+  color: #24323a;
+  font: inherit;
+}
+
+input[type="text"] {
+  min-height: 2.75rem;
+}
+
+input[required] {
+  border-left: 3px solid #9b4f35;
+}
+
+label + input {
+  margin-top: 0.25rem;
+}
+
+textarea {
+  min-height: 10rem;
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  outline: 3px solid rgba(29, 89, 96, 0.35);
+  outline-offset: 2px;
+}
+
+input[type="submit"] {
+  align-self: flex-start;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #1d5960;
+  background: #1d5960;
+  color: #fffefa;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+}
