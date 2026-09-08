@@ -1,1 +1,56 @@
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f3f0e9;
+  color: #24323a;
+  font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+p {
+  margin: 0 0 1rem;
+  max-width: 65ch;
+}
+
+a {
+  color: #1d5960;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: #1f2b31;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 1.1rem;
+  line-height: 1.35;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
